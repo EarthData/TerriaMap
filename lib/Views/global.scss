@@ -150,5 +150,11 @@ body {
     .tjs-tabs__btn--tab:hover {    
         color:$color-secondary;
     }
-
+     // center img 
+    .branding {
+        img {    
+            display: block;
+            margin: auto;
+        }
+    }
 }
