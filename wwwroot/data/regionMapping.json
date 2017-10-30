@@ -1,6 +1,13 @@
 {
     "comments": "Matching takes place in the order defined in this file. Place code matches before name matches, and smaller regions before larger ones.",
     "regionWmsMap": {
+        "RM_World": {
+            "layerName": "regionMapping:countries",
+            "server": "https://maps.leylines.ch:8443/geoserver/regionMapping/ows",
+            "regionProp": "GU_A3",
+            "aliases": ["gu_a3", "country code"],
+            "description": "World Countries"
+        },
         "SA1_2011": {
             "layerName": "FID_SA1_2011_AUST",
             "server": "https://vector-tiles.terria.io/FID_SA1_2011_AUST/{z}/{x}/{y}.pbf",
