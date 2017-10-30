@@ -23,16 +23,16 @@
          
         // Pop-up disclaimer that will be shown at the start
         // The text of the disclaimer is in lib/Views/GlobalDisclaimer.html
-        globalDisclaimer: {
-            confirmationRequired: true,
-            buttonTitle: "I agree",
-            title: "Disclaimer",
-            // If the current browser location is not prod, or is dev, then show a "not the real site" warning.
-            // The text of that is in lib/Views/DevelopmentDisclaimerPreamble.html
-            //prodHostRegex: "gov.\\.au$",
-            //devHostRegex: "\\b(staging|preview|test|dev)\\.",
-            enableOnLocalhost: true // If false, don't show this when running on localhost
-        },
+        //globalDisclaimer: {
+        //    confirmationRequired: true,
+        //    buttonTitle: "I agree",
+        //    title: "Disclaimer",
+        //    // If the current browser location is not prod, or is dev, then show a "not the real site" warning.
+        //    // The text of that is in lib/Views/DevelopmentDisclaimerPreamble.html
+        //    //prodHostRegex: "gov.\\.au$",
+        //    //devHostRegex: "\\b(staging|preview|test|dev)\\.",
+        //    enableOnLocalhost: true // If false, don't show this when running on localhost
+        //},
         
         /*
         developerAttribution: {
@@ -45,7 +45,7 @@
         // See comments in lib/Views/global.scss for further information about customising colors, logos, fonts etc.
         brandBarElements: [
             "",
-            "<a target=\"_blank\" href=\"http://www.earthdata.ch\"><img src=\"images/earthdata_logo.svg\" height=\"52\" title=\"Version: {{version}}\" /></a>",
+            "<a target=\"_blank\" href=\"http://www.earthdata.ch\"><img src=\"images/earthdata_logo.png\" height=\"52\" title=\"Version: {{version}}\" /></a>",
             ""
         ],
         // Shown when things go wrong.
