@@ -34,11 +34,10 @@
         //    enableOnLocalhost: true // If false, don't show this when running on localhost
         //},
         
-        /*
         developerAttribution: {
-            text: "Your organisation",
-            link: "http://www.example.com"
-        },*/
+            text: "EarthData",
+            link: "http://www.earthdata.ch"
+        },
         // This is used in various text messages. You should also set <title> in index.html
         appName: "EarthData Map",
 
