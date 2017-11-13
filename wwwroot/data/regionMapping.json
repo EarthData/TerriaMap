@@ -4,8 +4,8 @@
         "RM_World": {
             "layerName": "regionMapping:countries",
             "server": "https://maps.leylines.ch:8443/geoserver/regionMapping/ows",
-            "regionProp": "GU_A3",
-            "aliases": ["gu_a3", "country code"],
+            "regionProp": "ADM0_A3",
+            "aliases": ["adm0_a3", "country code"],
             "description": "World Countries"
         },
         "SA1_2011": {
