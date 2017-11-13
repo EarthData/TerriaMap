@@ -34,10 +34,17 @@ body {
         }
         // Different font size for the branding
         font-weight: 300;
+	background: white;
         color: white;
         font-size: 26px;
-        padding-top:2px;
-        padding-left:6px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        //padding-left:6px;
+
+        img {
+            display: block;
+            margin: auto;
+        }
 
         // To make the logo clickable, it should be instead set in config.json, at "brandBarElements"
         // background:$dark url(http://www.public-domain-image.com/backgrounds/slides/abstract-waves-on-a-blue-background.jpg);
@@ -149,12 +156,5 @@ body {
     }
     .tjs-tabs__btn--tab:hover {    
         color:$color-secondary;
-    }
-    // center img 
-    .tjs-branding__branding {
-        img {
-            display: block;
-            margin: auto;
-        }
     }
 }
