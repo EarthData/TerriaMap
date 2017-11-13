@@ -1,7 +1,7 @@
 {
-  "name": "terriajs-map",
-  "version": "0.0.1",
-  "description": "Geospatial catalog explorer based on TerriaJS.",
+  "name": "earthdata-map",
+  "version": "2.0.0",
+  "description": "Geospatial catalog explorer based on TerriaJS for maps.earthdata.ch.",
   "license": "Apache-2.0",
   "engines": {
     "node": ">= 5.1.0",
@@ -9,10 +9,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/TerriaJS/TerriaMap"
+    "url": "https://github.com/EarthData/earthdataMap"
   },
   "dependencies": {
-    "terriajs-server": "^2.6.2"
+    "terriajs-server": "git://github.com/EarthData/terriajs-server.git#master"
   },
   "config": {
     "awsProfile": "terria",
@@ -54,7 +54,7 @@
     "semver": "^5.0.0",
     "style-loader": "^0.18.0",
     "svg-sprite-loader": "^3.4.0",
-    "terriajs": "5.5.0",
+    "terriajs": "git://github.com/EarthData/terriajs.git#master"
     "terriajs-catalog-editor": "^0.2.0",
     "terriajs-cesium": "1.33.3",
     "terriajs-schema": "latest",
